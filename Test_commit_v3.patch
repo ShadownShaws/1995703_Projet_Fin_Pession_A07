@@ -1,0 +1,25 @@
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.gitignore	(date 1581023675000)
++++ .idea/.gitignore	(date 1581023675000)
+@@ -0,0 +1,2 @@
++# Default ignored files
++/workspace.xml
+\ No newline at end of file
+Index: src/control/AppCtr.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/control/AppCtr.java	(revision 53db808ede0f79747d0f0d5f4ad7e50888648aaa)
++++ src/control/AppCtr.java	(date 1581023535697)
+@@ -3,5 +3,6 @@
+ public class AppCtr {
+     public static void main(String [] args){
+         System.out.println("Hello world");
++        System.out.println("v2");
+     }
+ }
